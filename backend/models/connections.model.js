@@ -1,4 +1,4 @@
 import mongoose from "mongoose";
-import { connectionRequest } from "../Schema/connections.schema.js";
+import { ConnectionRequest } from "../Schema/connections.schema.js";
 
-const Connections = mongoose.model("Connections", connectionReques);
+const ConnectionRequest = mongoose.model("ConnectionRequest", ConnectionRequest);
