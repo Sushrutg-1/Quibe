@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-export const ConnectionRequest = new mongoose.Schema({
+export const ConnectionRequestSchema = new mongoose.Schema({
   userId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",
