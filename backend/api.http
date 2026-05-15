@@ -1,3 +1,5 @@
+# Register Route
+
 POST http://localhost:8080/register HTTP/1.1
 Content-Type: application/json
 
@@ -10,7 +12,7 @@ Content-Type: application/json
 
 ###
 
-
+# Login Route
 POST http://localhost:8080/login HTTP/1.1
 Content-Type: application/json
 
@@ -22,4 +24,58 @@ Content-Type: application/json
 ###
 
 
+# Get User and Profile Detailes Route
+GET http://localhost:8080/get_user_and_profile HTTP/1.1
+Content-Type:  application/json
+
+{
+ "token": "52d6fdca4e9f68d4a1bc8e9725aa24a8edcb1ffdb6c156a12aac92b851c116b1"  
+}
+
+###
+
+# Update User Detailes Route
+POST http://localhost:8080/update_profile HTTP/1.1
+Content-Type: application/json
+
+{
+    "token": "52d6fdca4e9f68d4a1bc8e9725aa24a8edcb1ffdb6c156a12aac92b851c116b1" , 
+    "email": "user@gmail.com",
+    "username" : "user"
+}
+
+
+###
+
+# Update Profile Detailes Route
+POST http://localhost:8080/update_profile_data HTTP/1.1
+Content-Type: application/json
+
+{
+   "token":  "52d6fdca4e9f68d4a1bc8e9725aa24a8edcb1ffdb6c156a12aac92b851c116b1",
+   "bio": "Hello, I'm User!",
+   "currentPost": "cto",
+   "pastWork" : [
+    {
+        "company": "Microsoft",
+        "position": "CTO",
+        "years": "2+"
+    }
+   ],
+   "education": [
+    {
+        "school": "KDK",
+        "degree": "BCA2",
+        "fieldOfstudy": "2022-2025"
+
+    }
+   ]
+}
+
+###
+# Get All User routes
+
+GET http://localhost:8080/user/get_all_users HTTP/1.1
+
+###
 
