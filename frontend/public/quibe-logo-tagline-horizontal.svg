@@ -1,0 +1,6 @@
+<svg width="320" height="70" viewBox="0 0 320 70" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="7" width="56" height="56" rx="14" fill="#534AB7"/>
+  <text x="28" y="45" text-anchor="middle" font-size="30" font-weight="500" fill="#EEEDFE" font-family="system-ui, -apple-system, sans-serif">Q</text>
+  <text x="70" y="38" font-size="26" font-weight="500" fill="#2C2C2A" font-family="system-ui, -apple-system, sans-serif">Quibe</text>
+  <text x="70" y="57" font-size="13" fill="#888780" font-family="system-ui, -apple-system, sans-serif">Vibe with your world.</text>
+</svg>

@@ -1,0 +1,4 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="198" height="198" x="1" y="1" rx="50" fill="none" stroke="#534AB7" stroke-width="4"/>
+  <text x="100" y="138" text-anchor="middle" font-size="110" font-weight="500" fill="#534AB7" font-family="system-ui, -apple-system, sans-serif">Q</text>
+</svg>
