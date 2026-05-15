@@ -5,6 +5,7 @@ import mongoose from "mongoose";
 
 import postsRoutes from "./routes/post.route.js";
 import userRoutes from "./routes/user.route.js";
+import commentRoutes from "./routes/comment.route.js";
 
 const app = express();
 dotenv.config();
@@ -14,10 +15,12 @@ const MONGO_URI = process.env.MONGO_URI;
 
 app.use(cors());
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use(express.static("uploads"));
 
-app.use(postsRoutes);
 app.use(userRoutes);
+app.use(postsRoutes);
+app.use(commentRoutes);
 
 const start = async () => {
   try {

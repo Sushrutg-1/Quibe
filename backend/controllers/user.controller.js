@@ -85,7 +85,6 @@ export const register = async (req, res) => {
 };
 
 export const login = async (req, res) => {
-  console.log(req.body);
   try {
     let { email, password } = req.body;
 
