@@ -1,0 +1,30 @@
+<svg width="900" height="400" viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="900" height="400" fill="#F1EFE8"/>
+  <ellipse cx="450" cy="200" rx="240" ry="160" fill="#EEEDFE" opacity="0.45"/>
+
+  <!-- Empty post card -->
+  <rect x="280" y="60" width="340" height="200" rx="20" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+
+  <!-- Ghost avatar -->
+  <circle cx="316" cy="96" r="18" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="0.5"/>
+  <rect x="342" y="86" width="100" height="10" rx="5" fill="#F1EFE8"/>
+  <rect x="342" y="102" width="70" height="8" rx="4" fill="#F1EFE8"/>
+
+  <!-- Ghost content lines -->
+  <rect x="300" y="128" width="280" height="10" rx="5" fill="#F1EFE8"/>
+  <rect x="300" y="146" width="240" height="10" rx="5" fill="#F1EFE8"/>
+  <rect x="300" y="164" width="200" height="10" rx="5" fill="#F1EFE8"/>
+
+  <!-- Ghost image block -->
+  <rect x="300" y="186" width="280" height="60" rx="10" fill="#F1EFE8"/>
+  <text x="440" y="223" text-anchor="middle" font-size="22" fill="#D3D1C7">🖼️</text>
+
+  <!-- Sparkle / empty indicator -->
+  <text x="450" y="298" text-anchor="middle" font-size="34">✨</text>
+  <text x="450" y="328" text-anchor="middle" font-size="18" font-weight="700" fill="#2C2C2A">Your feed is empty!</text>
+  <text x="450" y="350" text-anchor="middle" font-size="13" fill="#888780">Follow people and join groups to see posts here.</text>
+
+  <!-- CTA button -->
+  <rect x="340" y="366" width="220" height="26" rx="8" fill="#534AB7"/>
+  <text x="450" y="384" text-anchor="middle" font-size="12" font-weight="600" fill="white">Discover people to follow →</text>
+</svg>

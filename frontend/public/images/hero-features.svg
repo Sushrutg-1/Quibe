@@ -1,0 +1,109 @@
+<svg width="900" height="480" viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="900" height="480" fill="#F1EFE8"/>
+
+  <!-- Background blobs -->
+  <ellipse cx="150" cy="240" rx="130" ry="100" fill="#EEEDFE" opacity="0.5"/>
+  <ellipse cx="750" cy="240" rx="130" ry="100" fill="#E1F5EE" opacity="0.5"/>
+  <ellipse cx="450" cy="420" rx="120" ry="70" fill="#FAECE7" opacity="0.3"/>
+
+  <!-- Card 1: Feed -->
+  <rect x="60" y="80" width="230" height="320" rx="20" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <!-- card header -->
+  <rect x="60" y="80" width="230" height="52" rx="20" fill="#534AB7"/>
+  <rect x="60" y="110" width="230" height="22" fill="#534AB7"/>
+  <text x="175" y="112" text-anchor="middle" font-size="13" font-weight="600" fill="#EEEDFE">Quibe Feed</text>
+  <!-- post 1 -->
+  <circle cx="92" cy="160" r="16" fill="#EEEDFE"/>
+  <text x="92" y="165" text-anchor="middle" font-size="10" font-weight="600" fill="#534AB7">AK</text>
+  <text x="115" y="155" font-size="11" font-weight="600" fill="#2C2C2A">Aryan Kulkarni</text>
+  <text x="115" y="168" font-size="10" fill="#888780">Designer · 2h ago</text>
+  <rect x="78" y="182" width="196" height="40" rx="8" fill="#F1EFE8"/>
+  <text x="176" y="198" text-anchor="middle" font-size="10" fill="#444441">Just launched my portfolio on</text>
+  <text x="176" y="212" text-anchor="middle" font-size="10" fill="#444441">Quibe. Three months of work!</text>
+  <!-- reactions -->
+  <text x="82" y="238" font-size="10" fill="#888780">❤️ 124  💬 32  🔗 Share</text>
+  <line x1="78" y1="248" x2="274" y2="248" stroke="#D3D1C7" stroke-width="0.5"/>
+  <!-- post 2 -->
+  <circle cx="92" cy="270" r="16" fill="#E1F5EE"/>
+  <text x="92" y="275" text-anchor="middle" font-size="10" font-weight="600" fill="#1D9E75">SR</text>
+  <text x="115" y="265" font-size="11" font-weight="600" fill="#2C2C2A">Sneha Rao</text>
+  <text x="115" y="278" font-size="10" fill="#888780">Engineer · 5h ago</text>
+  <rect x="78" y="292" width="196" height="30" rx="8" fill="#F1EFE8"/>
+  <text x="176" y="313" text-anchor="middle" font-size="10" fill="#444441">Excited to join Quibe 🚀</text>
+  <text x="82" y="342" font-size="10" fill="#888780">❤️ 89  💬 14  🔗 Share</text>
+  <!-- badge -->
+  <rect x="78" y="358" width="70" height="22" rx="11" fill="#EEEDFE"/>
+  <text x="113" y="373" text-anchor="middle" font-size="10" font-weight="600" fill="#3C3489">Trending</text>
+  <rect x="156" y="358" width="60" height="22" rx="11" fill="#E1F5EE"/>
+  <text x="186" y="373" text-anchor="middle" font-size="10" font-weight="600" fill="#085041">Design</text>
+
+  <!-- Card 2: Chat (center) -->
+  <rect x="335" y="60" width="230" height="360" rx="20" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <rect x="335" y="60" width="230" height="52" rx="20" fill="#26215C"/>
+  <rect x="335" y="90" width="230" height="22" fill="#26215C"/>
+  <text x="450" y="92" text-anchor="middle" font-size="13" font-weight="600" fill="#EEEDFE">Quibe Chat</text>
+  <!-- chat messages -->
+  <rect x="351" y="128" width="140" height="34" rx="10" fill="#EEEDFE"/>
+  <text x="421" y="141" text-anchor="middle" font-size="10" fill="#3C3489">Hey! Saw your post 🙌</text>
+  <text x="421" y="155" text-anchor="middle" font-size="9" fill="#888780">10:32 AM</text>
+  <!-- reply bubble right -->
+  <rect x="399" y="172" width="146" height="34" rx="10" fill="#534AB7"/>
+  <text x="472" y="185" text-anchor="middle" font-size="10" fill="#EEEDFE">Thanks! Connect? 😊</text>
+  <text x="472" y="199" text-anchor="middle" font-size="9" fill="#AFA9EC">10:33 AM</text>
+  <rect x="351" y="216" width="160" height="34" rx="10" fill="#EEEDFE"/>
+  <text x="431" y="229" text-anchor="middle" font-size="10" fill="#3C3489">Sure! Check my profile</text>
+  <text x="431" y="243" text-anchor="middle" font-size="9" fill="#888780">10:34 AM</text>
+  <rect x="399" y="260" width="146" height="34" rx="10" fill="#534AB7"/>
+  <text x="472" y="273" text-anchor="middle" font-size="10" fill="#EEEDFE">Already connected! 🎉</text>
+  <text x="472" y="287" text-anchor="middle" font-size="9" fill="#AFA9EC">10:35 AM</text>
+  <!-- online users row -->
+  <line x1="351" y1="310" x2="549" y2="310" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="450" y="328" text-anchor="middle" font-size="10" fill="#888780">3 people online now</text>
+  <circle cx="420" cy="344" r="13" fill="#EEEDFE"/>
+  <text x="420" y="349" text-anchor="middle" font-size="9" font-weight="600" fill="#534AB7">AK</text>
+  <circle cx="450" cy="344" r="13" fill="#E1F5EE"/>
+  <text x="450" y="349" text-anchor="middle" font-size="9" font-weight="600" fill="#1D9E75">SR</text>
+  <circle cx="480" cy="344" r="13" fill="#FAEEDA"/>
+  <text x="480" y="349" text-anchor="middle" font-size="9" font-weight="600" fill="#BA7517">VP</text>
+  <!-- input box -->
+  <rect x="351" y="370" width="178" height="32" rx="16" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="378" y="391" font-size="10" fill="#888780">Type a message…</text>
+
+  <!-- Card 3: Careers -->
+  <rect x="610" y="80" width="230" height="320" rx="20" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <rect x="610" y="80" width="230" height="52" rx="20" fill="#1D9E75"/>
+  <rect x="610" y="110" width="230" height="22" fill="#1D9E75"/>
+  <text x="725" y="112" text-anchor="middle" font-size="13" font-weight="600" fill="white">Quibe Careers</text>
+  <!-- job card 1 -->
+  <rect x="626" y="148" width="198" height="76" rx="10" fill="#F1EFE8"/>
+  <rect x="634" y="158" width="30" height="30" rx="6" fill="#534AB7"/>
+  <text x="649" y="178" text-anchor="middle" font-size="12" font-weight="700" fill="#EEEDFE">G</text>
+  <text x="672" y="170" font-size="11" font-weight="600" fill="#2C2C2A">UI Designer</text>
+  <text x="672" y="182" font-size="10" fill="#888780">Groww · Bengaluru</text>
+  <text x="672" y="194" font-size="10" fill="#534AB7">₹18–24 LPA</text>
+  <rect x="634" y="208" width="58" height="18" rx="9" fill="#E1F5EE"/>
+  <text x="663" y="220" text-anchor="middle" font-size="9" font-weight="600" fill="#085041">Remote ✓</text>
+  <!-- job card 2 -->
+  <rect x="626" y="236" width="198" height="76" rx="10" fill="#F1EFE8"/>
+  <rect x="634" y="246" width="30" height="30" rx="6" fill="#D85A30"/>
+  <text x="649" y="266" text-anchor="middle" font-size="12" font-weight="700" fill="#FAECE7">R</text>
+  <text x="672" y="258" font-size="11" font-weight="600" fill="#2C2C2A">Full Stack Dev</text>
+  <text x="672" y="270" font-size="10" fill="#888780">Razorpay · Mumbai</text>
+  <text x="672" y="282" font-size="10" fill="#534AB7">₹22–30 LPA</text>
+  <rect x="634" y="296" width="64" height="18" rx="9" fill="#FAEEDA"/>
+  <text x="666" y="308" text-anchor="middle" font-size="9" font-weight="600" fill="#633806">Hybrid ✓</text>
+  <!-- apply btn -->
+  <rect x="634" y="322" width="198" height="34" rx="10" fill="#534AB7"/>
+  <text x="733" y="344" text-anchor="middle" font-size="12" font-weight="600" fill="white">Browse all jobs →</text>
+
+  <!-- Bottom stats row -->
+  <rect x="200" y="426" width="500" height="42" rx="21" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="290" y="452" text-anchor="middle" font-size="13" font-weight="600" fill="#534AB7">2M+</text>
+  <text x="290" y="464" text-anchor="middle" font-size="9" fill="#888780">Users</text>
+  <line x1="360" y1="432" x2="360" y2="462" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="450" y="452" text-anchor="middle" font-size="13" font-weight="600" fill="#1D9E75">50K+</text>
+  <text x="450" y="464" text-anchor="middle" font-size="9" fill="#888780">Jobs Posted</text>
+  <line x1="540" y1="432" x2="540" y2="462" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="620" y="452" text-anchor="middle" font-size="13" font-weight="600" fill="#D85A30">4.9★</text>
+  <text x="620" y="464" text-anchor="middle" font-size="9" fill="#888780">App Rating</text>
+</svg>

@@ -1,0 +1,75 @@
+<svg width="900" height="520" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <!-- Background -->
+  <rect width="900" height="520" fill="#F1EFE8"/>
+
+  <!-- Floating cards background glow blobs -->
+  <ellipse cx="200" cy="200" rx="180" ry="120" fill="#EEEDFE" opacity="0.6"/>
+  <ellipse cx="700" cy="320" rx="160" ry="110" fill="#E1F5EE" opacity="0.5"/>
+  <ellipse cx="500" cy="420" rx="120" ry="80" fill="#FAECE7" opacity="0.4"/>
+
+  <!-- Connection lines between avatars -->
+  <line x1="220" y1="190" x2="430" y2="200" stroke="#534AB7" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.35"/>
+  <line x1="480" y1="200" x2="670" y2="180" stroke="#1D9E75" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.35"/>
+  <line x1="300" y1="330" x2="430" y2="250" stroke="#D85A30" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.3"/>
+  <line x1="480" y1="250" x2="600" y2="340" stroke="#534AB7" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.3"/>
+
+  <!-- Central Quibe icon -->
+  <rect x="400" y="190" width="100" height="100" rx="24" fill="#534AB7"/>
+  <text x="450" y="255" text-anchor="middle" font-size="52" font-weight="700" fill="#EEEDFE">Q</text>
+
+  <!-- Pulse rings around center icon -->
+  <circle cx="450" cy="240" r="68" fill="none" stroke="#534AB7" stroke-width="1" opacity="0.2"/>
+  <circle cx="450" cy="240" r="90" fill="none" stroke="#534AB7" stroke-width="1" opacity="0.12"/>
+  <circle cx="450" cy="240" r="114" fill="none" stroke="#534AB7" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Avatar 1 — top left -->
+  <rect x="130" y="140" width="90" height="100" rx="16" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <circle cx="175" cy="170" r="22" fill="#EEEDFE"/>
+  <text x="175" y="177" text-anchor="middle" font-size="14" font-weight="600" fill="#534AB7">AK</text>
+  <text x="175" y="200" text-anchor="middle" font-size="10" font-weight="600" fill="#2C2C2A">Aryan K.</text>
+  <text x="175" y="213" text-anchor="middle" font-size="9" fill="#888780">Designer</text>
+  <circle cx="198" cy="145" r="7" fill="#1D9E75"/>
+
+  <!-- Avatar 2 — top right -->
+  <rect x="670" y="130" width="90" height="100" rx="16" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <circle cx="715" cy="160" r="22" fill="#E1F5EE"/>
+  <text x="715" y="167" text-anchor="middle" font-size="14" font-weight="600" fill="#1D9E75">SR</text>
+  <text x="715" y="190" text-anchor="middle" font-size="10" font-weight="600" fill="#2C2C2A">Sneha R.</text>
+  <text x="715" y="203" text-anchor="middle" font-size="9" fill="#888780">Engineer</text>
+  <circle cx="738" cy="135" r="7" fill="#1D9E75"/>
+
+  <!-- Avatar 3 — bottom left -->
+  <rect x="160" y="300" width="90" height="100" rx="16" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <circle cx="205" cy="330" r="22" fill="#FAEEDA"/>
+  <text x="205" y="337" text-anchor="middle" font-size="14" font-weight="600" fill="#BA7517">VP</text>
+  <text x="205" y="360" text-anchor="middle" font-size="10" font-weight="600" fill="#2C2C2A">Vikram P.</text>
+  <text x="205" y="373" text-anchor="middle" font-size="9" fill="#888780">Founder</text>
+  <circle cx="228" cy="305" r="7" fill="#D85A30"/>
+
+  <!-- Avatar 4 — bottom right -->
+  <rect x="640" y="310" width="90" height="100" rx="16" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <circle cx="685" cy="340" r="22" fill="#FAECE7"/>
+  <text x="685" y="347" text-anchor="middle" font-size="14" font-weight="600" fill="#993C1D">MJ</text>
+  <text x="685" y="370" text-anchor="middle" font-size="10" font-weight="600" fill="#2C2C2A">Meera J.</text>
+  <text x="685" y="383" text-anchor="middle" font-size="9" fill="#888780">Marketer</text>
+  <circle cx="708" cy="315" r="7" fill="#1D9E75"/>
+
+  <!-- Floating notification chip top -->
+  <rect x="310" y="80" width="170" height="38" rx="19" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <circle cx="329" cy="99" r="11" fill="#534AB7"/>
+  <text x="329" y="103" text-anchor="middle" font-size="9" font-weight="600" fill="#EEEDFE">Q</text>
+  <text x="388" y="104" text-anchor="middle" font-size="12" fill="#2C2C2A">New connection!</text>
+
+  <!-- Floating like chip -->
+  <rect x="560" y="420" width="140" height="36" rx="18" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="582" y="443" font-size="16">❤️</text>
+  <text x="604" y="443" font-size="12" fill="#2C2C2A">248 likes</text>
+
+  <!-- Floating job chip -->
+  <rect x="60" y="420" width="160" height="36" rx="18" fill="#534AB7"/>
+  <text x="150" y="443" text-anchor="middle" font-size="12" font-weight="600" fill="#EEEDFE">🚀 Job matched!</text>
+
+  <!-- Headline text -->
+  <text x="450" y="470" text-anchor="middle" font-size="32" font-weight="700" fill="#2C2C2A" letter-spacing="-0.5">Vibe with your world.</text>
+  <text x="450" y="500" text-anchor="middle" font-size="15" fill="#888780">Connect · Share · Grow — All on Quibe</text>
+</svg>

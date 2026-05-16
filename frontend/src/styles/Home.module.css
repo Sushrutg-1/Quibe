@@ -1,0 +1,48 @@
+.container {
+  font-family: "Poppins";
+  padding: 1.2rem;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  align-items: center;
+  /* text-align: center; */
+  gap: 2rem;
+  padding-inline: 2rem;
+  height: 80vh;
+}
+
+.mainContainer_left {
+  flex: 0.5;
+  padding-inline: 4rem;
+}
+
+.mainContainer_right {
+  flex: 0.5;
+}
+
+.mainContainer_left > p:nth-child(1) {
+  font-size: 2.9rem;
+  font-weight: bold;
+}
+
+.mainContainer_left > p:nth-child(2) {
+  font-size: 1.7rem;
+  margin-top: 0.8rem;
+  color: #7f7f80;
+}
+
+.mainContainer_left > .buttonJoin {
+  width: fit-content;
+  font-size: 1.4rem;
+  background-color: #534AB7;
+  padding: 0.8rem;
+  border-radius: 12px;
+  margin-top: 1.6rem;
+  user-select: none;
+  cursor: pointer;
+  color: #FAECE7;
+transition: all 0.2s;
+}

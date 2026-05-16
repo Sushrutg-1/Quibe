@@ -1,0 +1,92 @@
+<svg width="900" height="460" viewBox="0 0 900 460" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="900" height="460" fill="#F1EFE8"/>
+
+  <!-- Blobs -->
+  <ellipse cx="450" cy="230" rx="350" ry="180" fill="#EEEDFE" opacity="0.3"/>
+  <ellipse cx="150" cy="100" rx="120" ry="80" fill="#E1F5EE" opacity="0.4"/>
+  <ellipse cx="800" cy="380" rx="130" ry="80" fill="#FAECE7" opacity="0.35"/>
+
+  <!-- Central label -->
+  <text x="450" y="52" text-anchor="middle" font-size="20" font-weight="700" fill="#2C2C2A">Find your tribe on Quibe.</text>
+  <text x="450" y="72" text-anchor="middle" font-size="13" fill="#888780">Join groups around your interests, city, and career</text>
+
+  <!-- Group card 1: Designers -->
+  <rect x="60" y="96" width="220" height="160" rx="16" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <rect x="60" y="96" width="220" height="56" rx="16" fill="#534AB7"/>
+  <rect x="60" y="136" width="220" height="16" fill="#534AB7"/>
+  <text x="170" y="130" text-anchor="middle" font-size="22">🎨</text>
+  <text x="170" y="167" text-anchor="middle" font-size="12" font-weight="700" fill="#2C2C2A">Designers of India</text>
+  <text x="170" y="181" text-anchor="middle" font-size="11" fill="#888780">48,200 members</text>
+  <rect x="76" y="192" width="62" height="18" rx="9" fill="#EEEDFE"/>
+  <text x="107" y="205" text-anchor="middle" font-size="10" font-weight="600" fill="#3C3489">UI/UX</text>
+  <rect x="146" y="192" width="70" height="18" rx="9" fill="#EEEDFE"/>
+  <text x="181" y="205" text-anchor="middle" font-size="10" font-weight="600" fill="#3C3489">Figma</text>
+  <rect x="76" y="218" width="188" height="28" rx="8" fill="#534AB7"/>
+  <text x="170" y="237" text-anchor="middle" font-size="11" font-weight="600" fill="white">Join Group</text>
+
+  <!-- Group card 2: Startups -->
+  <rect x="310" y="96" width="220" height="160" rx="16" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <rect x="310" y="96" width="220" height="56" rx="16" fill="#D85A30"/>
+  <rect x="310" y="136" width="220" height="16" fill="#D85A30"/>
+  <text x="420" y="130" text-anchor="middle" font-size="22">🚀</text>
+  <text x="420" y="167" text-anchor="middle" font-size="12" font-weight="700" fill="#2C2C2A">Startup Founders Hub</text>
+  <text x="420" y="181" text-anchor="middle" font-size="11" fill="#888780">31,500 members</text>
+  <rect x="326" y="192" width="78" height="18" rx="9" fill="#FAECE7"/>
+  <text x="365" y="205" text-anchor="middle" font-size="10" font-weight="600" fill="#712B13">Funding</text>
+  <rect x="412" y="192" width="68" height="18" rx="9" fill="#FAECE7"/>
+  <text x="446" y="205" text-anchor="middle" font-size="10" font-weight="600" fill="#712B13">Growth</text>
+  <rect x="326" y="218" width="188" height="28" rx="8" fill="#D85A30"/>
+  <text x="420" y="237" text-anchor="middle" font-size="11" font-weight="600" fill="white">Join Group</text>
+
+  <!-- Group card 3: Tech -->
+  <rect x="560" y="96" width="220" height="160" rx="16" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <rect x="560" y="96" width="220" height="56" rx="16" fill="#1D9E75"/>
+  <rect x="560" y="136" width="220" height="16" fill="#1D9E75"/>
+  <text x="670" y="130" text-anchor="middle" font-size="22">💻</text>
+  <text x="670" y="167" text-anchor="middle" font-size="12" font-weight="700" fill="#2C2C2A">Tech Builders India</text>
+  <text x="670" y="181" text-anchor="middle" font-size="11" fill="#888780">72,100 members</text>
+  <rect x="576" y="192" width="62" height="18" rx="9" fill="#E1F5EE"/>
+  <text x="607" y="205" text-anchor="middle" font-size="10" font-weight="600" fill="#085041">React</text>
+  <rect x="646" y="192" width="70" height="18" rx="9" fill="#E1F5EE"/>
+  <text x="681" y="205" text-anchor="middle" font-size="10" font-weight="600" fill="#085041">Python</text>
+  <rect x="576" y="218" width="188" height="28" rx="8" fill="#1D9E75"/>
+  <text x="670" y="237" text-anchor="middle" font-size="11" font-weight="600" fill="white">Join Group</text>
+
+  <!-- Row 2: smaller group chips -->
+  <!-- Group 4 -->
+  <rect x="60" y="280" width="180" height="72" rx="14" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="82" y="308" font-size="18">📸</text>
+  <text x="110" y="306" font-size="12" font-weight="700" fill="#2C2C2A">Photography</text>
+  <text x="110" y="320" font-size="10" fill="#888780">22K members</text>
+  <rect x="82" y="328" width="148" height="14" rx="7" fill="#EEEDFE"/>
+  <text x="156" y="339" text-anchor="middle" font-size="9" font-weight="600" fill="#3C3489">Join →</text>
+
+  <!-- Group 5 -->
+  <rect x="258" y="280" width="180" height="72" rx="14" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="280" y="308" font-size="18">📈</text>
+  <text x="308" y="306" font-size="12" font-weight="700" fill="#2C2C2A">Finance & Invest</text>
+  <text x="308" y="320" font-size="10" fill="#888780">19K members</text>
+  <rect x="280" y="328" width="148" height="14" rx="7" fill="#FAEEDA"/>
+  <text x="354" y="339" text-anchor="middle" font-size="9" font-weight="600" fill="#633806">Join →</text>
+
+  <!-- Group 6 -->
+  <rect x="456" y="280" width="180" height="72" rx="14" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="478" y="308" font-size="18">🎬</text>
+  <text x="506" y="306" font-size="12" font-weight="700" fill="#2C2C2A">Content Creators</text>
+  <text x="506" y="320" font-size="10" fill="#888780">55K members</text>
+  <rect x="478" y="328" width="148" height="14" rx="7" fill="#FAECE7"/>
+  <text x="552" y="339" text-anchor="middle" font-size="9" font-weight="600" fill="#712B13">Join →</text>
+
+  <!-- Group 7 -->
+  <rect x="654" y="280" width="186" height="72" rx="14" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <text x="676" y="308" font-size="18">🌏</text>
+  <text x="704" y="306" font-size="12" font-weight="700" fill="#2C2C2A">Remote Workers</text>
+  <text x="704" y="320" font-size="10" fill="#888780">40K members</text>
+  <rect x="676" y="328" width="154" height="14" rx="7" fill="#E1F5EE"/>
+  <text x="753" y="339" text-anchor="middle" font-size="9" font-weight="600" fill="#085041">Join →</text>
+
+  <!-- Bottom CTA strip -->
+  <rect x="200" y="382" width="500" height="56" rx="28" fill="#534AB7"/>
+  <text x="450" y="410" text-anchor="middle" font-size="15" font-weight="700" fill="white">Explore 1,200+ communities on Quibe →</text>
+  <text x="450" y="428" text-anchor="middle" font-size="11" fill="#AFA9EC">Find people who get you — by city, skill, or passion</text>
+</svg>

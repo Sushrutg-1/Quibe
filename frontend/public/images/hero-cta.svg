@@ -1,0 +1,54 @@
+<svg width="900" height="360" viewBox="0 0 900 360" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="900" height="360" rx="24" fill="#534AB7"/>
+
+  <!-- Pattern circles -->
+  <circle cx="80" cy="80" r="120" fill="#3C3489" opacity="0.5"/>
+  <circle cx="820" cy="300" r="140" fill="#26215C" opacity="0.5"/>
+  <circle cx="750" cy="60" r="80" fill="#3C3489" opacity="0.3"/>
+  <circle cx="160" cy="320" r="90" fill="#26215C" opacity="0.35"/>
+
+  <!-- Floating avatar row -->
+  <circle cx="296" cy="88" r="26" fill="white" opacity="0.15"/>
+  <circle cx="296" cy="88" r="22" fill="#EEEDFE"/>
+  <text x="296" y="95" text-anchor="middle" font-size="14" font-weight="700" fill="#534AB7">AK</text>
+
+  <circle cx="350" cy="72" r="26" fill="white" opacity="0.15"/>
+  <circle cx="350" cy="72" r="22" fill="#E1F5EE"/>
+  <text x="350" y="79" text-anchor="middle" font-size="14" font-weight="700" fill="#1D9E75">SR</text>
+
+  <circle cx="404" cy="84" r="26" fill="white" opacity="0.15"/>
+  <circle cx="404" cy="84" r="22" fill="#FAEEDA"/>
+  <text x="404" y="91" text-anchor="middle" font-size="14" font-weight="700" fill="#BA7517">VP</text>
+
+  <circle cx="458" cy="70" r="26" fill="white" opacity="0.15"/>
+  <circle cx="458" cy="70" r="22" fill="#FAECE7"/>
+  <text x="458" y="77" text-anchor="middle" font-size="14" font-weight="700" fill="#993C1D">MJ</text>
+
+  <circle cx="512" cy="86" r="26" fill="white" opacity="0.15"/>
+  <circle cx="512" cy="86" r="22" fill="#EEEDFE"/>
+  <text x="512" y="93" text-anchor="middle" font-size="14" font-weight="700" fill="#534AB7">RN</text>
+
+  <circle cx="566" cy="72" r="26" fill="white" opacity="0.15"/>
+  <circle cx="566" cy="72" r="22" fill="#E1F5EE"/>
+  <text x="566" y="79" text-anchor="middle" font-size="14" font-weight="700" fill="#1D9E75">PK</text>
+
+  <text x="450" y="122" text-anchor="middle" font-size="12" fill="#AFA9EC">2 million+ people already vibing</text>
+
+  <!-- Main headline -->
+  <text x="450" y="172" text-anchor="middle" font-size="38" font-weight="700" fill="white" letter-spacing="-0.5">Ready to find your vibe?</text>
+  <text x="450" y="208" text-anchor="middle" font-size="16" fill="#AFA9EC">Join Quibe free — connect, grow, and share your world.</text>
+
+  <!-- CTA buttons -->
+  <rect x="270" y="232" width="180" height="48" rx="14" fill="white"/>
+  <text x="360" y="262" text-anchor="middle" font-size="15" font-weight="700" fill="#534AB7">Get started free</text>
+
+  <rect x="464" y="232" width="166" height="48" rx="14" fill="none" stroke="white" stroke-width="1.5"/>
+  <text x="547" y="262" text-anchor="middle" font-size="15" font-weight="600" fill="white">See how it works</text>
+
+  <!-- Trust row -->
+  <text x="450" y="316" text-anchor="middle" font-size="12" fill="#AFA9EC">✓ Free forever   ✓ No ads   ✓ Available on iOS &amp; Android</text>
+
+  <!-- Quibe mini logo bottom right -->
+  <rect x="810" y="24" width="44" height="44" rx="10" fill="#EEEDFE" opacity="0.2"/>
+  <text x="832" y="52" text-anchor="middle" font-size="22" font-weight="700" fill="white">Q</text>
+</svg>

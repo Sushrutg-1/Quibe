@@ -1,0 +1,40 @@
+<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="900" height="420" fill="#F1EFE8"/>
+
+  <!-- Blob -->
+  <ellipse cx="450" cy="210" rx="260" ry="180" fill="#EEEDFE" opacity="0.5"/>
+
+  <!-- Broken connection illustration -->
+  <!-- Left avatar -->
+  <circle cx="260" cy="190" r="56" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <circle cx="260" cy="190" r="44" fill="#EEEDFE"/>
+  <text x="260" y="200" text-anchor="middle" font-size="28" font-weight="700" fill="#534AB7">Q</text>
+  <!-- Sad face line -->
+  <path d="M 246 205 Q 260 198 274 205" stroke="#534AB7" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="248" cy="186" r="4" fill="#534AB7"/>
+  <circle cx="272" cy="186" r="4" fill="#534AB7"/>
+
+  <!-- Broken line -->
+  <line x1="316" y1="190" x2="360" y2="190" stroke="#D3D1C7" stroke-width="2" stroke-dasharray="8,5"/>
+  <text x="408" y="196" text-anchor="middle" font-size="28" fill="#D3D1C7">✕</text>
+  <line x1="440" y1="190" x2="490" y2="190" stroke="#D3D1C7" stroke-width="2" stroke-dasharray="8,5"/>
+
+  <!-- Right avatar -->
+  <circle cx="540" cy="190" r="56" fill="white" stroke="#D3D1C7" stroke-width="0.5"/>
+  <circle cx="540" cy="190" r="44" fill="#EEEDFE"/>
+  <text x="540" y="200" text-anchor="middle" font-size="28" font-weight="700" fill="#534AB7">?</text>
+
+  <!-- Question marks floating -->
+  <text x="200" y="140" text-anchor="middle" font-size="20" fill="#D3D1C7" opacity="0.7">?</text>
+  <text x="620" y="150" text-anchor="middle" font-size="16" fill="#D3D1C7" opacity="0.5">?</text>
+  <text x="400" y="120" text-anchor="middle" font-size="14" fill="#AFA9EC" opacity="0.6">?</text>
+
+  <!-- 404 text -->
+  <text x="450" y="292" text-anchor="middle" font-size="60" font-weight="700" fill="#534AB7" opacity="0.12">404</text>
+  <text x="450" y="320" text-anchor="middle" font-size="20" font-weight="700" fill="#2C2C2A">Oops! Page not found.</text>
+  <text x="450" y="344" text-anchor="middle" font-size="14" fill="#888780">Looks like this vibe doesn't exist. Let's get you back.</text>
+
+  <!-- Button -->
+  <rect x="340" y="362" width="220" height="42" rx="12" fill="#534AB7"/>
+  <text x="450" y="388" text-anchor="middle" font-size="13" font-weight="600" fill="white">← Back to Quibe</text>
+</svg>
