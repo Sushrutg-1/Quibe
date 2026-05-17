@@ -17,48 +17,51 @@ const authSlice = createSlice({
   name: "auth",
   initialState,
   reducers: {
-    reset: () => {
-      initialState;
-    },
+    reset: () => initialState,
     handleLoginUser: (state) => {
       state.message = "hello";
+    },
+    emptyMessage: (state) => {
+      state.message = "";
     },
   },
   extraReducers: (builder) => {
     builder
       .addCase(loginUser.pending, (state) => {
-        isLoading: true;
-        message: "knocking the door ..";
+        state.isLoading = true;
+        state.message = "Logging..";
       })
       .addCase(loginUser.fulfilled, (state, action) => {
-        isLoading: false;
-        message: "Login is successfull!";
-        isError: false;
-        isSuccess: true;
-        loggedIn: true;
+        state.isLoading = false;
+        state.message = "Login is successfull!";
+        state.isError = false;
+        state.isSuccess = true;
+        state.loggedIn = true;
       })
       .addCase(loginUser.rejected, (state, action) => {
-        isLoading: false;
-        isError: true;
-        message: action.payload;
+        state.isLoading = false;
+        state.isError = true;
+        state.message = action.payload?.message;
       })
       .addCase(registerUser.pending, (state) => {
-        isLoading: true;
-        message: "Registering you ..";
+        state.isLoading = true;
+        state.message = "Registering you ..";
       })
       .addCase(registerUser.fulfilled, (state, action) => {
-        isLoading: false;
-        isError: false;
-        isSuccess: true;
-        loggedIn: true;
-        message: "Register successfull!";
+        state.isLoading = false;
+        state.isError = false;
+        state.isSuccess = true;
+        state.loggedIn = false;
+        state.message = "Register successfull! Please Login!";
       })
       .addCase(registerUser.rejected, (state, action) => {
-        isLoading: false;
-        isError: true;
-        message: action.payload;
+        state.isLoading = false;
+        state.isError = true;
+        state.message = action.payload?.message;
       });
   },
 });
+
+export const { reset, emptyMessage } = authSlice.actions;
 
 export default authSlice.reducer;

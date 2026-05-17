@@ -35,7 +35,7 @@ function Navbar() {
               }}
               className={styles.buttonJoin}
             >
-              SignUp
+              Sign Up
             </div>
           </div>
         </nav>

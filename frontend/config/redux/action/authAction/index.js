@@ -15,7 +15,7 @@ export const loginUser = createAsyncThunk(
       } else {
         return thunkApi.rejectWithValue({ message: "Token is missing!" }); //Like a payload
       }
-
+      console.log(response.data);
       return thunkApi.fulfillWithValue({ token: response.data.token });
     } catch (error) {
       return thunkApi.rejectWithValue(error.response.data);

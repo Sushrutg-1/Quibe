@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  height: 90svh;
+  justify-content: center;
+  align-items: center;
+  background: snow;
+}
+
+.cardContainer {
+  display: flex;
+
+  overflow: hidden;
+  width: 80vw;
+  height: 80vh;
+
+  border: 1px solid black;
+  border-radius: 12px;
+  box-shadow: 10px 10px 20px #534ab7;
+}
+
+.cardContainer_left {
+  flex: 0.6;
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.cardContainer_left_heading {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.3rem;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 1.5rem;
+}
+
+.inputRow {
+  width: fit-content;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.inputField {
+  padding-inline: 1.3rem;
+  padding-block: 0.8rem;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #534ab7;
+  width: 100%;
+  text-align: center;
+}
+
+.cardContainer_right {
+  flex: 0.4;
+  background: #534ab7;
+}
+
+.buttonWithOutline {
+  background: #534ab7;
+  margin-top: 0.8rem;
+  border-radius: 10px;
+  align-items: center;
+
+  padding: 0.8rem 1.3rem;
+  color: #faece7;
+  width: 100%;
+  cursor: pointer;
+}
+
+.loginImage {
+  padding: 2.4rem;
+}
+
+.loginSetup {
+  align-items: center;
+  text-align: center;
+  font-size: larger;
+}
+
+.loginSetupButton {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -49,14 +49,14 @@ export const register = async (req, res) => {
       return res.status(400).json({ message: "All fields are required!" });
     }
 
-    const existingUserByEmail = await User.findOne({ email });
+    const existingUserByEmail = await User.findOne({ email: email });
     if (existingUserByEmail) {
-      return res.json({ message: "User already Exist!" });
+      return res.status(400).json({ message: "User already Exist!" });
     }
 
-    const existingUserByUsername = await User.findOne({ username });
+    const existingUserByUsername = await User.findOne({ username: username });
     if (existingUserByUsername) {
-      return res.json({ message: "User already Exist!" });
+      return res.status(400).json({ message: "User already Exist!" });
     }
 
     const hashedPassword = await bcrypt.hash(password, 10);
@@ -92,10 +92,10 @@ export const login = async (req, res) => {
       return res.status(400).json({ message: "All field requred!" });
     }
 
-    const user = await User.findOne({ email });
+    const user = await User.findOne({ email: email });
 
     if (!user) {
-      return res.status(404).json({ message: "User not found!" });
+      return res.status(400).json({ message: "User not found!" });
     }
 
     const isMatch = await bcrypt.compare(password, user.password);
