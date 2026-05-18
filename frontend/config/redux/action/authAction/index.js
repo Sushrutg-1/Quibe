@@ -39,3 +39,35 @@ export const registerUser = createAsyncThunk(
     }
   },
 );
+
+export const getAboutUser = createAsyncThunk(
+  "user/get_about_user",
+  async (user, thunkAPI) => {
+    try {
+      const response = await clientServer.get("/get_user_and_profile", {
+        params: {
+          token: user.token,
+        },
+      });
+
+      return thunkAPI.fulfillWithValue(response.data);
+    } catch (error) {
+      return thunkAPI.rejectWithValue(error.response.data);
+    }
+  },
+);
+
+export const getAllUsers = createAsyncThunk(
+  "user/getAllUser",
+  async (user, thunkAPI) => {
+    try {
+      console.log("get all user api")
+      const response = await clientServer.get("/user/get_all_users");
+      console.log(response.data)
+      return thunkAPI.fulfillWithValue(response.data);
+    } catch (error) {
+      console.log(error)
+      return thunkAPI.rejectWithValue(error.response.data);
+    }
+  },
+);

@@ -21,6 +21,7 @@
 }
 
 .navbarOptionContainer > .buttonJoin {
+  margin-right: 1.2rem;
   width: fit-content;
   font-size: 0.8rem;
   background-color: #534ab7;
@@ -30,5 +31,26 @@
   cursor: pointer;
   color: #faece7;
   transition: all 0.2s;
-  margin-right: 1.2rem;
+}
+
+.navbarUserDetailsContainer {
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+  gap: 1.2rem;
+    margin-right: 1.2rem;
+  
+}
+
+.userProfileButton{
+  width: fit-content;
+  font-size: 0.8rem;
+  background-color: #534ab7;
+  padding: 0.8rem;
+  border-radius: 12px;
+  user-select: none;
+  cursor: pointer;
+  color: #faece7;
+  transition: all 0.2s;
+ 
 }

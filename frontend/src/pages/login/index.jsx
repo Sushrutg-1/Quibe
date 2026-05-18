@@ -101,7 +101,6 @@ function LoginComponent() {
                   <input
                     className={styles.inputField}
                     type="password"
-                    s
                     placeholder="Password"
                     value={password}
                     onChange={(e) => {
